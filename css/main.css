@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:opsz,wght@9..144,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  font-family: "Fraunces", serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenir {
+  max-width: 1340px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header .header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+header .left-img {
+  width: 235px;
+}
+header .nav__lest {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+  margin-right: 20px;
+}
+header .header__bottom {
+  background-image: url(./img/kofe-bakal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1280px;
+  margin-left: 30px;
+  border-radius: 10px;
+  margin-top: 29px;
+}
+header .bottom__inner {
+  padding: 151px 80px;
+}
+header .bottom-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  width: 188px;
+  color: #fefcf7;
+}
+header .bottom-subtitle {
+  font-family: "Barlow";
+  font-style: normal;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 445px;
+  color: #fefcf7;
+}
+
+main .page__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 166px;
+  gap: 119px;
+}
+main .page-img {
+  margin-left: 40px;
+  border-radius: 10px;
+}
+main .page__raght-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  width: 900px;
+  color: #333D4B;
+}
+main .page__raght-subtitle {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 26px;
+  width: 540px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+main .boxs__inner {
+  padding: 80px 170px 80px;
+  background-color: #2C343E;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 256px;
+}
+main .box {
+  position: absolute;
+  width: 412px;
+  margin-left: 650px;
+  border-radius: 10px;
+  margin-top: -150px;
+}
+main .boxs-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  width: 517px;
+  color: #FEFCF7;
+}
+main .boxs-subtitle {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 400px;
+  margin-top: 32px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+main .chest__inner {
+  margin-top: 160px;
+  margin-left: 60px;
+}
+main .chests {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
+  margin-top: 50px;
+}
+main .chest-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  width: 255px;
+  color: #83888F;
+}
+main .countris-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  width: 272px;
+  margin-top: 80px;
+  color: #333D4B;
+}
+main .countris-subtitle {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 285px;
+  margin-top: 20px;
+  color: #333D4B;
+}
+
+footer .part__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2C343E;
+  padding: 48px 80px;
+  border-radius: 3px;
+  margin-top: 168px;
+}
+footer img {
+  margin-left: 7px;
+}
+footer .navbars {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+  opacity: 0.8;
+}
+footer .img {
+  width: 236px;
+  color: #FEFCF7;
+}/*# sourceMappingURL=main.css.map */
